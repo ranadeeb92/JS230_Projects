@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  background-color: white;
+}
+
+.green {
+  background-color: #20c997;
+  height: 100px;
+}
+
+#page-title {
+  text-decoration: none;
+  color: white;
+}
+
+#checkboxes{
+  display: none;
+  height: 100px;
+  border: 1px #dadada solid;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.add-scroll {
+  overflow-y: scroll;
+}
+
+
